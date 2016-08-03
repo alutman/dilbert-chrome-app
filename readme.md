@@ -9,7 +9,8 @@ Dilbert Chrome application to view Dilbert comics.
 
 
 Install through 
-    * bower install (add dependencies)
-    * Open chrome://extensions in Chrome
-    * Enable Developer Mode
-    * Load unpacked extension...
+
+* `bower install` (add dependencies)
+* Open `chrome://extensions` in Chrome
+* Enable Developer Mode
+* Load unpacked extension...
