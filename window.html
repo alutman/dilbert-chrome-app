@@ -1,0 +1,18 @@
+<html ng-app="dilbert">
+    <head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-controller="MainCtrl">
+        <div class="buttons">
+            <button ng-disabled="loading" ng-click="back()">Back</button>
+            <input ng-disabled="loading" type="text" ng-model="date"/>
+            <button ng-disabled="loading" ng-click="load()">Load</button>
+            <button ng-disabled="loading" ng-click="today()">Today</button>
+            <button ng-disabled="loading" ng-click="forward()">Forward</button>
+        </div>
+        <br/>
+        <img id="comic" style="max-height: 80%; max-width: 100%; min-height: 80%; min-width: 100%"/>
+    </body>
+</html>
